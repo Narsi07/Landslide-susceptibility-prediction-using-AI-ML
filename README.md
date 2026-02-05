@@ -6,43 +6,25 @@ The study specifically focuses on **Zhushan County, Shiyan City, Hubei Province,
 
 ## Key Features
 
-* 
-**Multi-Model Evaluation**: Comparative analysis of multiple machine learning algorithms including **XGBoost, Random Forest, LightGBM, and Logistic Regression**.
+* **Multi-Model Evaluation**: Comparative analysis of multiple machine learning algorithms including **XGBoost, Random Forest, LightGBM, and Logistic Regression**.
 
+* **Geospatial Factor Analysis**: Evaluation of factors such as slope, elevation (DEM), Land Use Land Cover (LULC), Distance from River, and NDVI.
 
-* 
-**Geospatial Factor Analysis**: Evaluation of factors such as slope, elevation (DEM), Land Use Land Cover (LULC), Distance from River, and NDVI.
+* **Interactive Interface**: A user-friendly **Gradio** dashboard for real-time risk assessment and manual feature input.
 
+* **Optimized Performance**: Implementation of **XGBoost** as the lead model, achieving superior predictive performance and AUC scores.
 
-* 
-**Interactive Interface**: A user-friendly **Gradio** dashboard for real-time risk assessment and manual feature input.
-
-
-* 
-**Optimized Performance**: Implementation of **XGBoost** as the lead model, achieving superior predictive performance and AUC scores.
-
-
-* 
-**Automated Spatial Calculation**: Uses pandas-vectorized distance calculations to determine the nearest risk locations based on latitude and longitude coordinates.
-
-
+* **Automated Spatial Calculation**: Uses pandas-vectorized distance calculations to determine the nearest risk locations based on latitude and longitude coordinates.
 
 ## Tech Stack
 
-* 
-**Languages**: Python 
+* **Languages**: Python 
 
+* **Libraries**: Scikit-learn, XGBoost, LightGBM, Pandas, NumPy, Matplotlib, Seaborn 
 
-* 
-**Libraries**: Scikit-learn, XGBoost, LightGBM, Pandas, NumPy, Matplotlib, Seaborn 
+* **Interface**: Gradio 
 
-
-* 
-**Interface**: Gradio 
-
-
-* 
-**Analysis**: GIS Spatial Analysis, Hyperparameter Tuning (RandomizedSearchCV) 
+* **Analysis**: GIS Spatial Analysis, Hyperparameter Tuning (RandomizedSearchCV) 
 
 
 
