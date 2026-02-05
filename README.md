@@ -1,0 +1,1 @@
+# Landslide-susceptibility-prediction-using-AI-ML
